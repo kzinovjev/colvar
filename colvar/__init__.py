@@ -1,6 +1,6 @@
 import json
-from colvar.compilers import compile_schema
-from colvar.evaluators import evaluate_schema
+from .compilers import compile_schema
+from .evaluators import evaluate_schema
 
 
 class ColVar:
